@@ -1,6 +1,6 @@
-# Isla Cacao site
+# Macanao Cacao site
 
-Single-page static site for Isla Cacao (pre-launch). Plain HTML/CSS/JS, served by GitHub Pages.
+Single-page static site for Macanao Cacao (pre-launch). Plain HTML/CSS/JS, served by GitHub Pages.
 
 TODO:
 - Add a business contact email in `index.html` (search for `TODO`).
