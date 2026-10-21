@@ -26,6 +26,7 @@
     <a href="#origin">Origin</a>
     <a href="#makers">For makers</a>
     <a href="#bars">Bars</a>
+    <a href="#gallery">Gallery</a>
     <a href="#process">Process</a>
     <a class="btn btn-small" href="#contact">Get in touch</a>
   </nav>
@@ -106,7 +107,7 @@
 
 <section id="bars" class="section bars">
   <div class="split">
-    <figure class="photo"><img src="img/bars.jpg" alt="Concept mockup of Isla Cacao chocolate bar wrappers in brown, ochre, turquoise and orange" loading="lazy"><figcaption>Concept packaging. Final bars and wrappers are still in development.</figcaption></figure>
+    <figure class="photo"><picture><source type="image/webp" srcset="img/gallery/bar-hero.webp"><img src="img/gallery/bar-hero.jpg" alt="Isla Cacao dark chocolate bar packaging concept next to an unwrapped bar and a cacao pod" loading="lazy" width="1152" height="864"></picture><figcaption>Packaging concept, not a final product.</figcaption></figure>
     <div>
       <p class="eyebrow">Muy pronto</p>
       <h2>Isla Cacao bars are coming soon.</h2>
@@ -121,6 +122,45 @@
     </div>
   </div>
 </section>
+
+<section id="gallery" class="section gallery">
+  <p class="eyebrow center">Galería</p>
+  <h2 class="center">Gallery</h2>
+  <p class="center g-note"><strong>Packaging concepts, not final products.</strong> Designs, cacao percentages and wording shown here are early explorations and will change before launch.</p>
+  <div class="g-grid">
+    <figure class="g-item">
+      <button class="g-open" data-full="img/gallery/bar-hero" aria-label="Enlarge: Paria dark bar">
+        <picture><source type="image/webp" srcset="img/gallery/bar-hero-600.webp 600w, img/gallery/bar-hero.webp 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"><img src="img/gallery/bar-hero-600.jpg" srcset="img/gallery/bar-hero-600.jpg 600w, img/gallery/bar-hero.jpg 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw" alt="Isla Cacao dark chocolate bar packaging concept beside an unwrapped bar and a cacao pod" loading="lazy" width="600" height="450"></picture>
+      </button>
+      <figcaption>Paria dark bar<span>Packaging concept, not a final product</span></figcaption>
+    </figure>
+    <figure class="g-item">
+      <button class="g-open" data-full="img/gallery/origin-lineup" aria-label="Enlarge: Origin series: Paria, Barlovento, Sur del Lago">
+        <picture><source type="image/webp" srcset="img/gallery/origin-lineup-600.webp 600w, img/gallery/origin-lineup.webp 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"><img src="img/gallery/origin-lineup-600.jpg" srcset="img/gallery/origin-lineup-600.jpg 600w, img/gallery/origin-lineup.jpg 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw" alt="Three Isla Cacao wrapper concepts in brown, turquoise and orange for Paria, Barlovento and Sur del Lago" loading="lazy" width="600" height="450"></picture>
+      </button>
+      <figcaption>Origin series: Paria, Barlovento, Sur del Lago<span>Packaging concept, not a final product</span></figcaption>
+    </figure>
+    <figure class="g-item">
+      <button class="g-open" data-full="img/gallery/gift-box-nibs" aria-label="Enlarge: Gift box &amp; cacao nibs">
+        <picture><source type="image/webp" srcset="img/gallery/gift-box-nibs-600.webp 600w, img/gallery/gift-box-nibs.webp 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"><img src="img/gallery/gift-box-nibs-600.jpg" srcset="img/gallery/gift-box-nibs-600.jpg 600w, img/gallery/gift-box-nibs.jpg 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw" alt="Isla Cacao gift box concept with four small bars, next to a cacao nibs pouch" loading="lazy" width="600" height="450"></picture>
+      </button>
+      <figcaption>Gift box &amp; cacao nibs<span>Packaging concept, not a final product</span></figcaption>
+    </figure>
+    <figure class="g-item">
+      <button class="g-open" data-full="img/gallery/beach-bar" aria-label="Enlarge: Island edition">
+        <picture><source type="image/webp" srcset="img/gallery/beach-bar-600.webp 600w, img/gallery/beach-bar.webp 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw"><img src="img/gallery/beach-bar-600.jpg" srcset="img/gallery/beach-bar-600.jpg 600w, img/gallery/beach-bar.jpg 1152w" sizes="(max-width:600px) 100vw, (max-width:900px) 50vw, 25vw" alt="Isla Cacao bar concept in gold foil resting on a beach rock with the sea and an island behind" loading="lazy" width="600" height="450"></picture>
+      </button>
+      <figcaption>Island edition<span>Packaging concept, not a final product</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-nav lb-prev" aria-label="Previous image">‹</button>
+  <figure><picture><source type="image/webp" id="lb-webp"><img id="lb-img" alt=""></picture><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-nav lb-next" aria-label="Next image">›</button>
+</div>
 
 <section id="process" class="section process">
   <p class="eyebrow center">Del árbol a la tableta</p>
